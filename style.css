@@ -199,6 +199,12 @@ h1 {
     color: #2E2E2E;
 }
 
+.quote-content {
+    width: 60%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
 .quotes {
     margin-top: 25px;
     display: flex;
@@ -392,6 +398,10 @@ my-email::before {
 }
 
 @media screen and (max-width: 960px) {
+    .quote-content {
+        width: 80%;
+        padding: 2%;
+    }
     .quotes {
         display: flex;
         flex-direction: column;
